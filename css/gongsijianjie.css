@@ -36,8 +36,6 @@
 	padding: 15px 30px;
 }
 .xbanner_left{
-	width: 57px;
-	height: 35px;
 	float: left;
 }
 .xbanner_left p{
@@ -161,7 +159,7 @@
 	float: left;
 	margin-top: 5px;
 }
-.pinpai_top_title_wenzi2{
+.pp_top_title_wenzi2{
 	font-size: 22px;
 	color: #5b5b5b;
 	font-weight: normal;

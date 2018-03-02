@@ -429,36 +429,3 @@
 .tan_img:hover{
 	opacity: 0.8;
 }
-.chanpin_p1{
-	font-size: 22px;
-	font-family: "微软雅黑";
-	margin-bottom: 14px;
-	color: #fff;
-	position: absolute;
-	top: 34px;
-	left: 23px;
-	z-index: 3;
-}
-.chanpin_p2{
-	font-size: 24px;
-	font-family: "arial";
-	font-weight: bold;	
-	color: rgba(255, 255, 255,1);
-	position: absolute;
-	top: 70px;
-	left: 23px;
-	z-index: 3;
-	display: none;
-}
-.chanpin_p3{
-	font-weight: normal;
-	position: absolute;
-	top: 96px;
-	left: 23px;
-	z-index: 3;
-	color: #fff;
-}
-.tan_img:hover .chanpin_p1,.chanpin_p2,.chanpin_p3{
-	color: rgba(255, 255, 255,1);
-	display: block;
-}
