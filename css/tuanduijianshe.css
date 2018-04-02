@@ -214,10 +214,10 @@
 	position: absolute;
 	left: 0;
 	top: 0;
-	opacity: 0;
+	display: none;
 }
-.tan_img:hover{
-	opacity: 1;
+.td_t_c_i2:hover .tan_img{
+	display: block;
 }
 
 .tuandui_top_content_item2_xian_you{

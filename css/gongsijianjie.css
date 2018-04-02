@@ -37,6 +37,7 @@
 }
 .xbanner_left{
 	float: left;
+	cursor: pointer;
 }
 .xbanner_left p{
 	width: 4px;
@@ -53,6 +54,7 @@
 	width: 156px;
 	height: 35px;
 	float: right;
+	cursor: pointer;
 }
 .xbanner_right p{
 	width: 4px;
@@ -150,6 +152,19 @@
 	height: 100%;
 	float: left;
 	margin-left: 42px;
+	cursor: pointer;
+}
+.pp_top_title_wenzi1:hover span{
+	color: #2c6b8a;
+}
+.pp_d1_title:hover h1{
+	color: #2c6b8a;
+}
+.pp_d1_title:hover span{
+	background: #2c6b8a;
+}
+.pp_d1_title:hover p{
+	color: #2c6b8a;
 }
 .pp_top_title_wenzi3{
 	font-family: "ARIAL";
@@ -157,7 +172,7 @@
 	font-weight: bold;
 	color: #5b5b5b;
 	float: left;
-	margin-top: 5px;
+	margin-top: 3px;
 }
 .pp_top_title_wenzi2{
 	font-size: 22px;
@@ -183,6 +198,11 @@
 	width: 683px;
 	float: left;
 	margin-top: 30px;
+	cursor: pointer;
+}
+.pp_d1_title p{
+	font-weight: 600;
+	color: #7a7a7a;
 }
 .pp_d1_title span{
 	width: 9px;
@@ -249,7 +269,20 @@
 	font-size: 14px;
 	font-weight: 600;
 	color: #7a7a7a;
+	margin-top: 1px;
 }	
 .zddt_bottoms{
 	margin-top: 80px;
+}
+.xbanner_left:hover span{
+	 color: #2e6d8c;
+ }
+.xbanner_left:hover p{
+	border-left: 2px solid #f5c813;
+}
+.xbanner_right:hover span{
+	color: #2e6d8c;
+}
+.xbanner_right:hover p{
+	border-left: 2px solid #f5c813;
 }

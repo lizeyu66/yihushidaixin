@@ -163,7 +163,6 @@
 	width: 375px;
 	height: 46px;
 	margin: 0 auto;
-/* 	margin-left: 439px; */
 	padding-top: 30px;
 	padding-bottom: 80px;
 }
@@ -180,6 +179,7 @@
 	color: #595959;
 	font-size: 30px;
 	margin-right: 26px;
+	cursor: pointer;
 }
 .choice{
 	width: 24px;
@@ -192,15 +192,13 @@
 	margin-right: 26px;
 	text-align: center;
 	line-height: 24px;
+	cursor: pointer;
 }
 .jiantou2{
 	color: #595959;
 	font-size: 30px;
 	float: right;
-}
-.choice:hover{
-	background-color:#2b6c8c;
-	color: #fff; 
+	cursor: pointer;
 }
 .choice2{
 	background-color: rgba(0, 0, 0, 0);
@@ -386,7 +384,16 @@
 	color: #7b7b7b;
 	padding-top: 10px;
 }
+.chanpinb{
+	width: 1200px;
+	height: 902px;
+	margin: 0 auto;
+	position: relative;
+}
 .chanpin{
+	position: absolute;
+	top: 0;
+	left: 0;
 	width: 1200px;
 	height: 852px;
 	margin: 0 auto;
@@ -399,6 +406,9 @@
 	margin-right: 21px;
 	margin-bottom: 30px;
 	float: left;
+}
+.chanpin_item:hover{
+	transform: translateY(-8px);
 }
 .chanpin_itemk{
 	width: 259px;
@@ -426,6 +436,19 @@
 	z-index: 2;
 	opacity: 0
 }
-.tan_img:hover{
+.tan_img:hover {
 	opacity: 0.8;
+}
+.nav1 .nav_icon{
+	position: absolute;
+	bottom: -8px;
+	right: -6px;
+	font-size: 16px;
+}
+.chanpin1.active1{
+	z-index: 999;
+}
+.choices.active{
+	background-color:#2b6c8c;
+	color: #fff;
 }
